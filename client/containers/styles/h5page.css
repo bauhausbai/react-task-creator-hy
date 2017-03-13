@@ -1,0 +1,85 @@
+.header{
+	background-color: #31364a;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.create_con{
+	width: 1000px;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.leftbar{
+	position: fixed;
+	background-color: #76828e;
+	width: 288px;
+	left: 0;
+	top: 50px; 
+	bottom: 0;
+}
+
+.workspace{
+	position: absolute;
+	left: 288px; 
+	top: 50px;
+	right: 0;
+	bottom: 0;
+}
+
+.edit_wrapper{
+	position: absolute;
+	height: 486px;
+	width: 320px;
+	top: 30px; 
+	left: 200px;
+}
+
+.edit_area{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	background-position: 50% 50%;
+	background-color: #f60;
+}
+
+.pagi{
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	background-color: #fff;
+}
+.cur_pagi{
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	background-color: #f60;
+}
+
+.ele{
+	position: absolute;
+	display: inline-block;
+}
+
+.cur_ele{
+	position: absolute;
+	display: inline-block;	
+	border: 1px dashed #fff;
+	box-sizing: border-box;
+}
+
+.layer{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.8);
+}
+

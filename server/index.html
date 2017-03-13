@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>manage</title>
+
+	
+</head>
+<body>
+	
+	<input type="text" name="phone" id="phone">
+	<input type="text" name="nickname" id="nickname">
+	<input type="submit" name="submit" id="submit">
+
+	<script type="text/javascript">
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function (data) {
+			if (xhr.readystate == 4) {
+				if ((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304) {
+					alert(xhr.responseText);
+				} else {
+					alert("Request was unsuccessful: " + xhr.status);
+				}
+			}
+			console.log(data);
+		};
+		xhr.open("post", "http://www.kuafuu.com/register", true);
+		xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+		xhr.send("phone=18581869807&nickname=bauhaus&password=bjy930926");
+		//hr.send({"phone": "18581869807"});
+	</script>
+</body>
+</html>

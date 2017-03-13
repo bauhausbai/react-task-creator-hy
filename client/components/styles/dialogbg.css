@@ -1,0 +1,73 @@
+.layer{
+	position: fixed;
+	top: 0; 
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.3);
+	overflow: hidden;
+}
+
+.container{
+	width: 918px;
+	background-color: #fff;
+	margin: 100px auto;
+}
+
+.everImg{
+	height: 400px;
+	padding: 17px;
+	overflow: scroll;
+}
+
+.everImg li{
+	float: left;
+	width: 115px;
+	height: 115px;
+	line-height: 115px;
+	background-color: #76838f;
+	overflow: hidden;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.everImg li img{
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.header{
+	height: 25px;
+	line-height: 25px;
+	padding: 17px;
+	background-color: #f7f7f7;
+}
+
+.close{
+	float: right;
+	color: #999;
+}
+
+.imgUploadBg{
+	width: 200px;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	background-color: #59c7f9;
+	color: #fff;
+}
+
+.imgUploadBtn{
+	width: 200px;
+	height: 55px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.footer{
+	position: relative;
+}

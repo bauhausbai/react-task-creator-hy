@@ -1,0 +1,100 @@
+.bg{
+	width: 100%;
+}
+
+.content{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.block{
+	width: 1440px;
+	min-height: 100px;
+	border: 1px solid #aaa;
+	position: relative;
+}
+
+.blockBg{
+	display: block;
+	width: 100%;
+}
+
+.cur_blockBg{
+	display: block;
+	width: 100%;
+	border: 1px dashed #fff;
+}
+
+.controlBar{
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #f60;
+}
+
+.docInfo{
+}
+
+.addEle{
+	display: inline-block;
+}
+
+.eleSetting{
+	display: inline-block;
+}
+
+.btn{
+	background-color: #f60;
+	opacity: 0.7;
+	display: inline-block;
+	position: absolute;
+}
+
+.cur_btn{
+	background-color: #f60;
+	opacity: 0.7;
+	display: inline-block;
+	border: 1px dashed #fff;
+	position: absolute;
+}
+
+.cushion{
+	position: relative;
+	height: 60px;
+}
+
+.onedit{
+	position: absolute;
+	top: 0;
+	right: 1440px;
+	min-width: 34px;
+	padding: 3px;
+	display: inline-block;
+	background-color: #f60;
+	color: #fff;
+	cursor: pointer;
+}
+
+.edit{
+	position: absolute;
+	top: 0;
+	right: 1440px;
+	min-width: 34px;
+	display: inline-block;
+	color: #f60;
+	cursor: pointer;
+}
+
+.delete{
+	position: absolute;
+	top: 24px;
+	right: 1440px;
+	min-width: 34px;
+	display: inline-block;
+	color: #f60;
+	cursor: pointer;
+}
+

@@ -1,0 +1,22 @@
+.wrapper{
+	background-color: rgba(255,102,0,.5);
+	position: absolute;
+	overflow: hidden;
+}
+
+.carousel{
+	width: auto;
+	height: 100%;
+}
+
+.carousel > div{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel > div > img{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}

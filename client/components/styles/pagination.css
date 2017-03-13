@@ -1,0 +1,33 @@
+.pagi{
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  background-color: #fff;
+  position: relative;
+}
+
+.cur_pagi{
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  background-color: #f60;
+  position: relative;
+}
+
+.add{
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  background-color: #999;
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  background-color: rgba(0,0,0,.6);
+}

@@ -1,0 +1,49 @@
+.header{
+	background-color: #31364a;
+	height: 50px;
+	width: 100%;
+	color: #fff;
+	position: relative;
+	margin: 0;
+}
+
+.space_center{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.create{
+	height: 50px; 
+	line-height: 50px;
+}
+
+.header li{
+	list-style: none;
+	float: left;
+	width: 100px; 
+	height: 100%;
+	line-height: 100%;
+	text-align: center;
+}
+
+.header li > *{
+	height: 100%;
+	line-height: 100%;
+}
+
+.current{
+	background-color: #f60;
+}
+
+.task_area{
+	width: 1000px;
+	min-height: 100px;
+	margin: 0 auto;
+	border-top: 1px dashed #f60;
+}
+
+.pointer{
+	cursor: pointer;
+	display: inline-block;
+}
